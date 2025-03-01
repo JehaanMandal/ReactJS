@@ -3,7 +3,7 @@ import React, { useState, useRef } from 'react'
 
 function App() {
 
-  const [text, setText] =  useState("Type your words")
+  const [text, setText] =  useState("")
 
 
    const textRef = useRef(null)
